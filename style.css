@@ -58,7 +58,9 @@ main{
 .left-section{
     width: 50%;
     text-align: center;
-    background-color: var(--Light-slate-blue);
+    background: linear-gradient(to top,
+        var(--Light-slate-blue),
+        var(--Light-royal-blue));
     color: white;
     border-radius: 1.5rem;
     padding-top: 2rem;
@@ -66,13 +68,14 @@ main{
 }
 
 .result{
-    background-color:var(--Violet-blue);
+    background: linear-gradient(to bottom,
+        var(--Violet-blue),
+        hsl(241, 72%, 46%, 0));
     border-radius: 100%;
     margin-top: 2rem;
     margin-bottom: 2rem;
     margin-left: 4.2rem;
     margin-right: 4.2rem;
-    text-align: center;
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
